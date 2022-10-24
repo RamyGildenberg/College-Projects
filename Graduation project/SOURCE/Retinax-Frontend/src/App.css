@@ -1,0 +1,47 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(171, 197, 227);
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  height: 12%;
+  width: 100%;
+  border: 2px solid white;
+  background-color: rgba(37, 141, 179, 0.791);
+}
+
+.header-title{
+  margin: 0;
+  font-size: 100px;
+  height: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+}
+
+.app-container{
+width: 100%;
+height: 100%;
+}
+.aside {
+  width: 30%;
+  height: 86%;
+  margin-left: 1%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.section {
+  width: 60%;
+  margin-left:1%;
+  margin-top: 1%;
+  height: 85.5%;
+  display: inline-block;
+}
+
