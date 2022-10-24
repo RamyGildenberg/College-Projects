@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <include layout='@layout/toolbar'
+        android:id='@+id/home_toolbar'/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/background_design"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+
+                android:elevation="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+
+                            android:text="Good afternoon "
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:background="@drawable/background_design"
+                            android:textStyle="bold|italic"
+                            android:id="@+id/time_greeting">
+
+                        </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </androidx.cardview.widget.CardView >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_design"
+                android:id="@+id/recycler_home">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            app:fabSize="normal"
+            android:backgroundTint="@color/orange"
+
+            android:id="@+id/fab"
+            android:src="@drawable/plus"/>
+
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</LinearLayout>

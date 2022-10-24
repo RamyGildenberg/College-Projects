@@ -1,0 +1,20 @@
+/* example: switch stmt */
+
+int a;
+int b;
+
+{
+  a = 0;
+
+  switch ( a + 17 ) {
+  
+     case 11: b = 101; /*break; */
+     case 22: b = 102; /*break; */
+     case 33: b = 103; /* break; */
+     default: b = 99; 
+  }  
+  
+  
+}
+
+   

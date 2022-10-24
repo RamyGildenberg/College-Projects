@@ -1,0 +1,11 @@
+.text-field {
+    -fx-prompt-text-fill: gray;
+}
+
+.text-field .text {
+    -fx-effect: dropshadow( two-pass-box , blue , .5, 10 , 1 , 1);    
+}
+
+.text-field:empty .text {
+    -fx-effect: null ;
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */

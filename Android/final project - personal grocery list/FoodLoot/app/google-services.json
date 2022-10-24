@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "872140007420",
+    "firebase_url": "https://foodloot-dc91d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "foodloot-dc91d",
+    "storage_bucket": "foodloot-dc91d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872140007420:android:a80e87d514ff32219bb479",
+        "android_client_info": {
+          "package_name": "com.example.foodloot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872140007420-4542qhoc9c45edv1qhmsa5hp609rjdaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNqNyiWoWtTfRlOFIkSWounTakS5h7eaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872140007420-4542qhoc9c45edv1qhmsa5hp609rjdaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

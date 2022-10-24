@@ -1,0 +1,19 @@
+    a = 0
+    _t1 = a + 17
+        
+    ifFalse _t1 == 11 goto label1
+    b = 101
+    goto label4
+label1:
+    ifFalse _t1 == 22 goto label2
+    b = 102
+    goto label4
+label2:
+    ifFalse _t1 == 33 goto label3
+    b = 103
+    goto label4
+label3:
+    b = 99
+
+label4: 
+    halt

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/main_btnLogin"
+            android:background="@color/white"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/main_btnSignup"
+            android:background="@color/white"
+            android:textColor="@color/white"
+            android:text="SignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

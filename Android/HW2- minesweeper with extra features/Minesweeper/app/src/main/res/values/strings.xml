@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="diffEZ">"Easy"</string>
+    <string name="diffMed">"Medium"</string>
+    <string name="diffHard">"Hard"</string>
+    <string name="SelectDiff">"Select Difficulty"</string>
+    <string name="newGame">"New Game"</string>
+    <string name="Exit">"Exit"</string>
+    <string name="gameOver">"Game Over"</string>
+    <string name="timePlayed">"Time Played"</string>
+    <string name="score">"Score"</string>
+    <string name="highScore">"Best Time"</string>
+    <string name="ezScore">"Easy Score"</string>
+    <string name="medScore">"Medium Score"</string>
+    <string name="hardScore">"Hard Score"</string>
+    <string name="startGame">"Start Game"</string>
+    <string name="highScores">"High Scores"</string>
+    <string name="youLose">"You Lost!"</string>
+    <string name="youWin">"You Won!"</string>
+    <string name="yourTimeWas">"Your time was:"</string>
+    <string name="minutesAnd">" Minutes and "</string>
+    <string name="seconds">" Seconds"</string>
+    Seconds
+
+</resources>

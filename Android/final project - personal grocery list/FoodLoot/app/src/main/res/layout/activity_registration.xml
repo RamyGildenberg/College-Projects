@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_design"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/food_loot_upgraded" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:padding="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Food"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/orange"
+                    android:textSize="50dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:gravity="center"
+                    android:text="@string/Loot"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textSize="50dp"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Register"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="30dp"
+
+                />
+
+            <EditText
+                android:id="@+id/email_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ed_design"
+                android:hint="Email:"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+                />
+
+            <EditText
+                android:id="@+id/password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ed_design_2"
+                android:hint="Password:"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <android.widget.Button
+
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:text="@string/Reg_btn"
+                android:background="@drawable/ripple_background"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/logIn_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/existingAccount"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

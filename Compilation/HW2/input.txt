@@ -1,0 +1,10 @@
+Olympic Games
+<sport> [Archery] <years> 1900-1908, 1920, since 1972
+
+<sport> [Athletics] <years> all
+
+<sport> [BasketBall] <years> since 1936
+
+<sport> [Tug Of War] <years> 1900 through 1920
+
+<sport> [Karate] <years> 2020

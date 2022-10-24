@@ -1,0 +1,2 @@
+If you need to change the number of the threads , please refer to the defined variable NUM_THREADS and change the number to the desired amount of threads.
+In order for the program to function , you must pass an argument for the MAX variable , if not passed ,the program will abort, when running mpiexec , add the value for MAX at the end of the command line.

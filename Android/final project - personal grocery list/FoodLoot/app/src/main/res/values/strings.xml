@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodLoot </string>
+    <string name="Food">Food </string>
+    <string name="Loot"> Loot</string>
+    <string name="LogInTitle">Log In</string>
+    <string name="LogInButton">Log In</string>
+    <string name="appTitle">FoodLoot</string>
+    <string name="noAccountSignUp">Dont have an account yet? Sign up here!</string>
+    <string name="Register">Registration</string>
+    <string name="Reg_btn">Create Account</string>
+    <string name="existingAccount">Already have an account? log in here!</string>
+</resources>
